@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best friends </title>
+    <style>
+        :root {
+            --cream: #fdfaf5;
+            --dusty-rose: #d4a3a3;
+            --muted-gold: #c5a47e;
+            --deep-coffee: #4a3f35;
+            --soft-shadow: rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            background-color: var(--cream);
+            color: var(--deep-coffee);
+            font-family: 'Georgia', serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+            border-bottom: 1px solid var(--dusty-rose);
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            font-weight: normal;
+            font-style: italic;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+
+        p.subtitle {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: var(--muted-gold);
+        }
+
+        .bookshelf {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 40px;
+            max-width: 1000px;
+            width: 100%;
+        }
+
+        .book-card {
+            background: white;
+            padding: 20px;
+            border-radius: 2px;
+            box-shadow: 10px 10px 20px var(--soft-shadow);
+            text-decoration: none;
+            color: inherit;
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            border: 1px solid #f0e6db;
+        }
+
+        .book-card:hover {
+            transform: translateY(-10px) rotate(1deg);
+            box-shadow: 15px 15px 30px rgba(0,0,0,0.15);
+        }
+
+        .cover-art {
+            width: 160px;
+            height: 230px;
+            background-color: var(--dusty-rose);
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Efecto de cinta decorativa estilo Laufey */
+        .cover-art::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            background: rgba(255,255,255,0.4);
+            top: 20%;
+        }
+
+        .book-title {
+            font-size: 1.2rem;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        .book-author {
+            font-size: 0.8rem;
+            color: var(--muted-gold);
+            font-style: italic;
+        }
+
+        .special-edition {
+            border: 2px double var(--dusty-rose);
+        }
+
+        footer {
+            margin-top: 80px;
+            font-size: 0.8rem;
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Everything I Know About Love</h1>
+        <p class="subtitle">Una colección de historias y melodías escritas a mano</p>
+    </header>
+
+  <div class="bookshelf">
+        <a href="libro1.html" class="book-card">
+            <div class="cover-art" style="background-color: #e5989b;"> <span style="font-size: 0.7rem; color: white;">VALENTINE</span>
+            </div>
+            <div class="book-title">Be My Valentine</div>
+            <div class="book-author">El inicio de todo</div>
+        </a>
+
+        <a href="libro2.html" class="book-card">
+            <div class="cover-art" style="background-color: #6d6875;"> <span style="font-size: 0.7rem; color: white;">PROMISE</span>
+            </div>
+            <div class="book-title">The Promise of Your Voice</div>
+            <div class="book-author">El eco de un amor real</div>
+        </a>
+
+        <a href="libro3.html" class="book-card">
+            <div class="cover-art" style="background-color: #b5838d;"> <span style="font-size: 0.7rem; color: white;">AGAIN</span>
+            </div>
+            <div class="book-title">Fragments of a Heart</div>
+            <div class="book-author">Lo que me enseñaste del amor</div>
+        </a>
+        <a href="razones.html" class="book-card special-edition">
+            <div class="cover-art" style="background-color: var(--dusty-rose);">
+                <span style="color: white; font-size: 40px;">♥</span>
+            </div>
+            <div class="book-title">100 razones por las cuales te sigo amando</div>
+            <div class="book-author">Edición Especial</div>
+        </a>
+    </div>
+
+    <footer>
+        &copy; 2026 Inspirado por las notas de Laufey-- by Yiiph11
+    </footer>
+
+</body>
+</html>

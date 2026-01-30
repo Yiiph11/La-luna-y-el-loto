@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Libro 3 Capítulo I: Again</title>
+    <style>
+        :root { 
+            --accent: #b5838d; 
+            --paper: #fdfaf6; 
+            --ink: #4a4a4a; 
+            --gold: #c2a379;
+            --soft-rose: #e6d5d8;
+        }
+        body { 
+            background: #d6ccc2; 
+            display: flex; 
+            justify-content: center; 
+            padding: 60px 20px; 
+            font-family: 'Garamond', serif; 
+            margin:0; 
+        }
+        .book { 
+            background: var(--paper); 
+            max-width: 800px; 
+            width: 100%; 
+            padding: 60px 80px; 
+            box-shadow: 5px 5px 30px rgba(0,0,0,0.1); 
+            border-left: 10px solid #a68a7b;
+            position: relative;
+        }
+        .header { text-align: center; margin-bottom: 50px; }
+        .loto { font-size: 1.8rem; color: var(--accent); margin-bottom: 10px; display: block; opacity: 0.6; }
+        h1 { 
+            font-family: 'Playfair Display', serif; 
+            font-size: 2.8rem; 
+            color: var(--ink); 
+            font-weight: normal; 
+            margin: 0;
+        }
+        .subtitle {
+            font-style: italic;
+            color: var(--gold);
+            font-size: 1.1rem;
+            display: block;
+            margin-top: 10px;
+        }
+        .writing-area { 
+            font-size: 1.15rem; 
+            line-height: 1.9; 
+            text-align: justify; 
+            color: var(--ink); 
+        }
+        .poem-intro { 
+            font-style: italic;
+            text-align: center;
+            margin-bottom: 60px;
+            padding: 20px;
+            border: 1px double var(--soft-rose);
+        }
+        .lessons-title {
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            color: var(--accent);
+            margin: 60px 0 40px;
+        }
+        .lesson { margin-bottom: 40px; }
+        .lesson h3 { 
+            font-size: 1.3rem; 
+            color: var(--accent); 
+            margin-bottom: 12px;
+            border-bottom: 1px solid var(--soft-rose);
+            display: block;
+        }
+        
+        /* Estilos para el Gran Poema Final */
+        .long-poem {
+            margin-top: 100px;
+            padding: 50px;
+            background: #fcf8f3;
+            border-radius: 2px;
+            box-shadow: inset 0 0 50px rgba(0,0,0,0.02);
+            text-align: center;
+            position: relative;
+        }
+        .long-poem::before {
+            content: "Epílogo del Alma";
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--paper);
+            padding: 0 20px;
+            color: var(--gold);
+            font-style: italic;
+            font-size: 0.9rem;
+        }
+        .poem-content {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.25rem;
+            line-height: 2.2;
+            color: #333;
+            font-style: italic;
+        }
+        .strophe { margin-bottom: 40px; }
+        
+        .divider {
+            text-align: center;
+            color: var(--gold);
+            margin: 40px 0;
+            letter-spacing: 8px;
+        }
+        .footer-nav { 
+            margin-top: 80px; 
+            text-align: center; 
+            font-style: italic; 
+            border-top: 1px solid #eee;
+            padding-top: 40px;
+        }
+        .back-btn { 
+            text-decoration: none; 
+            color: var(--accent); 
+            font-size: 1rem; 
+            transition: 0.3s; 
+        }
+        .back-btn:hover { color: #8a5a64; letter-spacing: 2px; }
+    </style>
+</head>
+<body>
+    <div class="book">
+        <div class="header">
+            <span class="loto">🪷</span>
+            <h1>Fragments of a Heart</h1>
+            <span class="subtitle">Bitácora de una redención en proceso</span>
+        </div>
+
+        <div class="writing-area">
+            <div class="poem-intro">
+                "Aquel día el mundo se detuvo en mi error,<br>
+                rompí la promesa, marchité nuestro lazo...<br>
+                ¿Estarías dispuesta, con el alma loca,<br>
+                a arriesgarlo todo por una vez más?"
+            </div>
+
+            <h2 class="lessons-title">Lo que mi alma aprendió al amarte</h2>
+
+            <div class="lesson">
+                <h3>1. La valentía de la vulnerabilidad</h3>
+                <p>Aprendí que el acto más heroico de un hombre no es resistir el dolor en soledad, sino permitir que la mujer que ama vea sus grietas. En aquellos días de enfermedad, comprendí que amarte era bajar la guardia y que tu sola presencia en mi casa era un bálsamo más poderoso que cualquier medicina. Aprendí que ser cuidado por ti es la forma más pura de paz que existe.</p>
+            </div>
+
+            <div class="lesson">
+                <h3>2. La mística de lo cotidiano</h3>
+                <p>Aprendí que el amor tiene el poder de sacralizar los objetos. Una gerbera no es solo una flor, y una película no es solo luz sobre una pantalla; son fragmentos de nuestra historia. Aprendí que si se ama con suficiente intensidad, se puede construir un universo entero en los detalles más pequeños, y que esos detalles son los que nos salvan cuando el mundo exterior se vuelve gris.</p>
+            </div>
+
+            <div class="lesson">
+                <h3>3. La persistencia de la luz en la tormenta</h3>
+                <p>A pesar de los días en que el frío de noviembre intentó apagar nuestras risas, aprendí que mi amor por ti es una llama que no depende del clima. Aprendí que incluso cuando te sentía distante en medio de una multitud, mi corazón buscaba el tuyo como una brújula busca el norte. Amar no es solo estar cuando sale el sol, sino aprender a decorar tu habitación en la oscuridad.</p>
+            </div>
+
+            <div class="lesson">
+                <h3>4. La belleza de lo imperfecto</h3>
+                <p>Aprendí a enamorarme de tus sombras tanto como de tus luces. Tu desorden, tus silencios, tus cambios de humor... cada faceta tuya es un verso en el poema que he decidido leer por el resto de mi vida. Aprendí que no amo una versión idealizada de ti, sino a la mujer real que se sienta en el suelo conmigo y me devuelve el beso cuando intento hacerme el fuerte.</p>
+            </div>
+
+            <div class="lesson">
+                <h3>5. El amor como un acto de voluntad constante</h3>
+                <p>Aprendí que el amor no es una emoción pasiva que nos sucede, sino una decisión que se toma cada mañana. Decidí arriesgarme por nosotros incluso cuando las señales decían que no. Aprendí que la fe en el "nosotros" es un músculo que se fortalece con cada obstáculo superado, y que mi voluntad de conquistarte es más grande que cualquier miedo al rechazo.</p>
+            </div>
+
+            <div class="lesson">
+                <h3>6. El refugio en el perdón</h3>
+                <p>Aprendí que el perdón no es solo borrar un error, sino reconstruir un puente con las piedras que cayeron. A pesar de los malentendidos y las palabras no dichas, aprendí que un abrazo tuyo puede sanar la herida más profunda. Aprendí que prefiero un invierno difícil a tu lado que una primavera eterna sin tu presencia.</p>
+            </div>
+
+            <div class="lesson">
+                <h3>7. La profundidad del silencio compartido</h3>
+                <p>Aprendí que no siempre hacen falta palabras para decirte que eres mi mundo. En aquellos besos en la oscuridad de tu cuarto, aprendí que el silencio puede ser la conversación más honesta entre dos almas. Aprendí a escuchar los latidos de tu corazón y a entender que, en ese ritmo, está escrita la música más bella que jamás he oído.</p>
+            </div>
+
+            <div class="lesson">
+                <h3>8. El valor de las promesas imposibles</h3>
+                <p>Aprendí que cumplir una promesa, como la de darte la mejor Navidad de tu vida, es la forma más alta de respeto. Pero también aprendí que, cuando fallamos, la verdadera prueba de amor es cómo nos levantamos. Aprendí que mis manos siempre estarán listas para trabajar por tu felicidad, sin importar cuánto cansancio cargue mi espalda.</p>
+            </div>
+
+            <div class="lesson">
+                <h3>9. La trascendencia sobre el pasado</h3>
+                <p>Aprendí que no importa cuántas personas hayan pasado por nuestras vidas antes, ni cuántos nombres hayan causado heridas. Aprendí que el amor tiene el poder de reiniciar el reloj. Tú no eres tu pasado, y yo no soy mis errores; somos este instante eterno donde tus labios reclaman los míos y el tiempo se detiene.</p>
+            </div>
+
+            <div class="lesson">
+                <h3>10. La nobleza del sacrificio emocional</h3>
+                <p>Aprendí que amar significa, a veces, luchar contra uno mismo. Mi fuerza de voluntad contra mi deseo, mi miedo contra mi esperanza. Aprendí que incluso en mis momentos de mayor extravío, cuando intenté alejarte para no sufrir, mi alma gritaba tu nombre. Aprendí que no puedo huir de lo que me da vida, y tú eres mi aliento.</p>
+            </div>
+
+            <div class="lesson">
+                <h3>11. La esperanza como destino final</h3>
+                <p>Sobre todo, aprendí que el "no" de hoy es solo un velo que esconde el "sí" de mañana si hay suficiente coraje para insistir. Aprendí que no me importa si ya no estoy en tus planes futuros, porque estoy dispuesto a luchar para que vuelvas a soñarme. Aprendí que arriesgarse por amor nunca es perder, porque incluso en la incertidumbre, haberte amado me ha hecho el hombre más rico del mundo.</p>
+            </div>
+
+            <div class="divider">❦</div>
+
+            <div class="long-poem">
+                <div class="poem-content">
+                    <div class="strophe">
+                        Fuiste el hospital y fuiste la herida,<br>
+                        el antibiótico dulce en mis noches de fiebre,<br>
+                        cuando mi orgullo caía en pendiente suave<br>
+                        y tu mano era el único puente hacia la vida.<br>
+                        Aprendí que los hombres que no lloran,<br>
+                        son solo estatuas de sal esperando la lluvia,<br>
+                        y que yo prefiero ser barro entre tus dedos<br>
+                        que mármol vacío donde nadie se apoya.
+                    </div>
+
+                    <div class="strophe">
+                        He guardado el eco de tus pasos en la sala,<br>
+                        como quien guarda el oro de un reino perdido.<br>
+                        Sacralicé la gerbera, la risa y la almohada,<br>
+                        bendije el desorden que dejas al irte,<br>
+                        porque entiendo ahora, con luz de noviembre,<br>
+                        que el amor no es un templo de mármol perfecto,<br>
+                        sino una casa pequeña, con grietas y sombras,<br>
+                        donde tú eres el fuego y yo soy el techo.
+                    </div>
+
+                    <div class="strophe">
+                        Me perdí en los silencios, me vestí de rechazo,<br>
+                        intenté convencerme de que el "nosotros" era un mito,<br>
+                        pero mi brújula interna, terca y constante,<br>
+                        siempre marcaba el norte de tu regazo.<br>
+                        Perdóname el miedo de no ser suficiente,<br>
+                        la torpeza de manos que rompen lo amado,<br>
+                        estoy reconstruyendo con piedras caídas<br>
+                        el altar de una fe que me diste de frente.
+                    </div>
+
+                    <div class="strophe">
+                        Si el futuro es un muro que hoy nos separa,<br>
+                        déjame ser el hiedra que escale el olvido.<br>
+                        No te pido que olvides lo que te ha dolido,<br>
+                        sino que mires al hombre que el dolor reparó.<br>
+                        Porque amar no es un don, es una ciencia de sabios,<br>
+                        es decidir despertarse y volverte a elegir,<br>
+                        aunque el mundo se apague, aunque mueran los labios,<br>
+                        yo he aprendido a vivir... solo por verte vivir.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-nav">
+            <p>Fin de este volumen.</p>
+            <a href="index.html" class="back-btn">~ Cerrar Libro ~</a>
+        </div>
+    </div>
+</body>
+</html>

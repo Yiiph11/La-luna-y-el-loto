@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libro I - Capítulo II: El Brillo de la Luna</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Georgia&display=swap');
+
+        :root { 
+            --accent: #e5989b; 
+            --paper: #fffcf9; 
+            --ink: #3d3d3d; 
+            --blue-soft: #a2d2ff;
+            --purple-soft: #cdb4db;
+        }
+
+        body { 
+            background: #f0e6e6; 
+            display: flex; 
+            justify-content: center; 
+            padding: 60px 20px; 
+            font-family: 'Georgia', serif; 
+            margin: 0; 
+        }
+
+        .book { 
+            background: var(--paper); 
+            max-width: 700px; 
+            width: 100%; 
+            padding: 80px 60px; 
+            box-shadow: 10px 10px 40px rgba(0,0,0,0.05); 
+            position: relative;
+            border-top: 8px solid var(--accent);
+        }
+
+        .header { text-align: center; margin-bottom: 60px; }
+        
+        h1 { 
+            font-family: 'Playfair Display', serif; 
+            font-style: italic; 
+            font-size: 2.8rem; 
+            color: var(--accent); 
+            margin: 0; 
+        }
+        
+        .subtitle { 
+            letter-spacing: 4px; 
+            font-size: 0.75rem; 
+            text-transform: uppercase; 
+            color: #b5b5b5; 
+            margin-top: 10px; 
+        }
+
+        .writing-area { 
+            font-size: 1.15rem; 
+            line-height: 2.1; 
+            text-align: justify; 
+            color: var(--ink); 
+        }
+
+        .highlight {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            color: var(--accent);
+            font-weight: bold;
+        }
+
+        .color-blue { color: #6a99b3; font-weight: bold; }
+        .color-purple { color: #8e7dbe; font-weight: bold; }
+
+        .quote-box {
+            margin: 40px 0;
+            padding: 20px;
+            border-top: 1px double var(--accent);
+            border-bottom: 1px double var(--accent);
+            text-align: center;
+            font-style: italic;
+            color: var(--ink);
+        }
+
+        .footer-nav { 
+            margin-top: 80px; 
+            text-align: center; 
+            border-top: 1px solid #eee; 
+            padding-top: 40px; 
+        }
+        
+        .back-btn { 
+            text-decoration: none; 
+            color: var(--accent); 
+            font-size: 0.8rem; 
+            letter-spacing: 2px; 
+            text-transform: uppercase; 
+            border: 1px solid var(--accent); 
+            padding: 12px 25px; 
+            border-radius: 50px; 
+            transition: 0.3s; 
+            display: inline-block;
+            margin: 10px;
+        }
+        
+        .back-btn:hover { 
+            background: var(--accent); 
+            color: white; 
+        }
+    </style>
+</head>
+<body>
+
+    <div class="book">
+        <div class="header">
+            <h1>Colores y Destellos</h1>
+            <p class="subtitle">Libro I | Capítulo II</p>
+        </div>
+
+        <div class="writing-area">
+            <p>
+                El azul del cielo... ¿Cómo olvidar el día en el que pintaste mi mundo de ese color? Lo recuerdo bien: nos hiciste rodear a todos mientras yo cocinaba aquel espagueti. Nunca me ha gustado mi propia comida, soy mi crítico más duro, pero cuando dijiste que estaba delicioso —acompañado de esa <span class="highlight">sonrisa hermosa</span>— sentí una de las sensaciones más puras del mundo. Fue como si, de pronto, me ganara la lotería del alma.
+            </p>
+
+            <p>
+                Luego llegó el momento de pintarme el cabello de <span class="color-blue">azul</span>. Es inusual en mí, pues detesto que toquen mi cabello y mucho menos me prestaría para tal barbaridad, pero contigo... contigo no existían las negativas. Era todo lo contrario: contigo nacía el deseo de intentarlo todo. Al día siguiente mi pelo era un desastre, el color se había fijado mal, pero no me importó. Un error lo comete cualquiera, y si el error era tuyo, yo lo llevaba con orgullo.
+            </p>
+
+            <p>
+                ¿Recuerdas nuestro primer baile bajo la lluvia? Qué día más fantástico. En ese parque fue donde realmente empecé a notar que tu belleza no era solo visual, sino sentimental. Te veía saltar en los charcos, expresándote con una libertad que cautivó mi corazón. De ahí nació nuestra primera canción: <span class="highlight">"Her" de JVKE</span>. Estuve perdido durante años hasta que te encontré.
+            </p>
+
+            <div class="quote-box">
+                "I was lost in the dark, and then I found her..."
+            </div>
+
+            <p>
+                Aun así, yo seguía dudando de mi propio amor, hasta el día en que nos pintamos el cabello de <span class="color-purple">morado</span>. Mientras te veía bailar de felicidad, la duda se disipó como la niebla. Mis ojos dejaron de titilar y empezaron a brillar con una certeza absoluta por ti. Me di cuenta de la pureza de tu corazón; eres única, brillas sin esfuerzo. <span class="highlight">Naciste para brillar, amor mío.</span>
+            </p>
+
+            <p>
+                Pero la luz también requiere confianza, y en ese mismo parque, decidí entregarte mi mayor secreto: mi enfermedad. Fue un momento de honestidad cruda, un lazo que nos unió más allá de lo superficial. Éramos felices, profundamente felices.
+            </p>
+
+            <p>
+                Entonces llegó el evento escolar. Decidimos participar juntos bajo la temática del <span class="highlight">Sol y la Luna</span>. Te veías deslumbrante con ese vestido; la metáfora nos quedaba fenomenal: tú eras mi luna, guiándome en la oscuridad, y yo era tu sol, brillando con más fuerza solo gracias a ti. Recuerdo los ensayos, mirándonos directamente a los ojos mientras el brillo en ellos crecía. ¿Cómo no iba a ser así? Tus ojos hacen que cualquier paisaje quede en segundo lugar.
+            </p>
+        </div>
+        <div style="margin-top: 50px; padding: 30px; border-left: 2px solid var(--accent); font-style: italic; background: rgba(229, 152, 155, 0.05);">
+                <p>
+                    Incluso cuando el cuerpo flaqueaba,<br>
+                    y mi enfermedad intentaba apagar la luz,<br>
+                    tú aparecías en mi puerta como un decreto de vida.<br>
+                    Te rogaba que no vinieras, que no te arriesgaras,<br>
+                    pero tu terquedad era más dulce que mis miedos,<br>
+                    y en cada visita, me enamoraba de ti una vida entera.
+                </p>
+
+                <p>
+                    ¿Recuerdas nuestra primera flor?<br>
+                    Aquella <strong>gerbera</strong> que trajo a la realidad<br>
+                    nuestras <em>"pinceladas del amor"</em>.<br>
+                    Me entregaste el mundo en un pétalo<br>
+                    y el alma en tus primeras cartas;<br>
+                    ese día, el vacío se llenó de una felicidad<br>
+                    que jamás creí merecer.
+                </p>
+
+                <p>
+                    Fuimos sol y luna en un baile perfecto,<br>
+                    ganadores de un premio que palidecía ante tu brillo,<br>
+                    creyéndonos eternos entre el morado y el azul...
+                </p>
+            </div>
+
+            <p style="text-align: center; font-weight: bold; color: var(--accent); margin-top: 40px; font-family: 'Playfair Display', serif;">
+                Pero el tiempo no se detiene,<br>
+                y el calendario, implacable, marcó el inicio de Noviembre.
+            </p>
+        <div class="footer-nav">
+            <a href="capitulo1.html" class="back-btn">⇠ Capítulo I</a>
+            <a href="index.html" class="back-btn">⏾ Estantería</a>
+            <a href="libro2.html" class="back-btn" style="background: #6d6875; color: white; border-color: #6d6875;">Abrir Libro II: Noviembre ➔</a>
+        </div>
+    </div>
+</body>
+</html>
