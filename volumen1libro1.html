@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>capitulo I: Valentine</title>
+    <style>
+        /* Fuentes */
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Georgia&display=swap');
+
+        :root { 
+            --accent: #e5989b; /* Rosa Valentine */
+            --paper: #fffcf9; 
+            --ink: #3d3d3d; 
+        }
+
+        body { 
+            background: #f0e6e6; 
+            display: flex; 
+            justify-content: center; 
+            padding: 60px 20px; 
+            font-family: 'Georgia', serif; 
+            margin: 0; 
+        }
+
+        .book { 
+            background: var(--paper); 
+            max-width: 700px; 
+            width: 100%; 
+            padding: 80px 60px; 
+            box-shadow: 10px 10px 40px rgba(0,0,0,0.05); 
+            position: relative;
+            border-top: 8px solid var(--accent);
+        }
+
+        .header { text-align: center; margin-bottom: 60px; }
+        
+        h1 { 
+            font-family: 'Playfair Display', serif; 
+            font-style: italic; 
+            font-size: 3rem; 
+            color: var(--accent); 
+            margin: 0; 
+        }
+        
+        .subtitle { 
+            letter-spacing: 4px; 
+            font-size: 0.75rem; 
+            text-transform: uppercase; 
+            color: #b5b5b5; 
+            margin-top: 10px; 
+        }
+
+        .writing-area { 
+            font-size: 1.15rem; 
+            line-height: 2; 
+            text-align: justify; 
+            color: var(--ink); 
+        }
+
+        .writing-area p { margin-bottom: 1.5em; text-indent: 0; }
+        
+        .first-letter::first-letter { 
+            float: left; 
+            font-size: 4.5rem; 
+            color: var(--accent); 
+            padding-right: 12px; 
+            line-height: 0.8;
+            font-family: 'Playfair Display', serif; 
+        }
+
+        .section-title {
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            font-size: 1.6rem;
+            color: var(--ink);
+            margin-top: 60px;
+            margin-bottom: 30px;
+            position: relative;
+        }
+        
+        .section-title::after {
+            content: "❧";
+            display: block;
+            color: var(--accent);
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        .highlight {
+            font-family: 'Playfair Display', serif;
+            font-weight: bold;
+            font-style: italic;
+            color: var(--accent);
+        }
+
+        .dialogue-highlight {
+            display: block;
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            color: var(--ink);
+            margin: 30px 0;
+            font-style: italic;
+            border-left: 3px solid var(--accent);
+            padding-left: 20px;
+        }
+
+        .footer-nav { 
+            margin-top: 80px; 
+            text-align: center; 
+            border-top: 1px solid #eee; 
+            padding-top: 40px; 
+        }
+        
+        .back-btn { 
+            text-decoration: none; 
+            color: var(--accent); 
+            font-size: 0.8rem; 
+            letter-spacing: 2px; 
+            text-transform: uppercase; 
+            border: 1px solid var(--accent); 
+            padding: 12px 25px; 
+            border-radius: 50px; 
+            transition: 0.3s; 
+        }
+        
+        .back-btn:hover { 
+            background: var(--accent); 
+            color: white; 
+        }
+    </style>
+</head>
+<body>
+
+    <div class="book">
+        <div class="header">
+            <h1>Be My Valentine</h1>
+            <p class="subtitle">Capítulo I: El loto y el pantano, El despertar de los sentimientos</p>
+        </div>
+
+        <div class="writing-area">
+            
+            <p class="first-letter">
+                Yo era un escéptico de los finales felices, un tonto que creía que el amor era algo que les pasaba a otros. Pero esa noche, bajo la luz que hacía que tus ojos parecieran miel pura, todo cambió. No fue un beso planeado; fue una rendición. Fue el momento en que mi resistencia se rompió ante la mujer más capaz y brillante que he conocido. En ese beso, me enseñaste lo que el amor de verdad se sentía: un salto al vacío donde, por primera vez, no tuve miedo de caer.
+            </p>
+
+            <p>
+                Momentos antes de perderme en el umbral de tus labios, mis ojos —color sol— se encendieron bajo el influjo de tu dulzura. Sentí una inquietud casi eléctrica recorriéndome la piel; mi pulso se aceleró en una carrera desbocada y el calor comenzó a reclamar cada rincón de mi cuerpo. Fue como si, de pronto, me impactara un rayo en medio de una noche despejada.
+            </p>
+
+            <p>Entonces, te besé.</p>
+
+            <p>
+                No hubo rechazo, solo la aceptación más pura de mis sentimientos. Me miraste con esa inteligencia que te define y, en lugar de palabras, me ofreciste el refugio de un abrazo. En ese instante, mientras los latidos de mi corazón superaban los 150 latidos por minuto, rompiendo cualquier rastro de calma, pronuncié las únicas palabras que mi alma dictaba:
+            </p>
+
+            <span class="dialogue-highlight">
+                —No te pediré perdón, porque no me arrepiento.
+            </span>
+
+            <p>
+                Me buscaste la mirada una vez más y juraría que mis ojos brillaron con una intensidad que nunca antes habían conocido. Como respuesta, depositaste un beso en mi frente —un gesto cargado de una ternura que me desarmó por completo— y no pude hacer otra cosa más que sonreír.
+            </p>
+
+
+            <h2 class="section-title">El Origen de la Flor</h2>
+
+            <p>
+                A veces me pregunto si el destino tiene memoria. Para entender el presente, debo retroceder a la primera vez que mis ojos brillaron por ti. Lo recuerdo con una nitidez asombrosa. Al entrar al salón aquel día, te vi. Estabas allí, sentada, ocupando el espacio con una naturalidad que me desarmó. Mi mente, en un susurro involuntario, dictó una sentencia: <span class="highlight">«Esa sonrisa es la cosa más hermosa que he visto»</span>. De inmediato, mi corazón traicionó su ritmo habitual. «¿Qué fue eso?», me pregunté, solo para ignorar segundos después aquel primer brote de amor.
+            </p>
+
+            <p>
+                Luego, desapareciste. Te fuiste sin previo aviso y el vacío se instaló en mi pecho. El tiempo pasó y el olvido hizo su trabajo, hasta el día en que regresaste. Mi corazón, que parecía haber guardado el eco de aquel primer encuentro, volvió a latir con fuerza. Le pregunté a una amiga: «¿Quién es esa chica tan hermosa?». Su respuesta fue un eco del pasado: «Estuvo en nuestro salón las primeras semanas».
+            </p>
+
+            <div class="dialogue-highlight">
+                Y entonces, en medio de mi propio pantano, floreció el loto.
+            </div>
+
+            <p>
+                Me repetí que eras demasiado linda para mí, que eras un sueño inalcanzable, y decidí guardar silencio. Pero al observarte con el paso de los días, mi intuición empezó a notar las grietas. Tu sonrisa, antes radiante, se sentía forzada; tus expresiones cargaban un peso de tristeza. Mi complejo de salvador despertó: «¿Y si la ayudo?». Pero el lugar a tu lado ya estaba ocupado, y me resigné pensando que él cuidaría de ti, sin saber que era precisamente él quien causaba tu dolor. Te seguí observando, viendo con impotencia cómo tu luz se atenuaba.
+            </p>
+
+            <p>
+                Febrero llegó con una salida que lo cambió todo. Te vi aparecer deslumbrante. Al terminar el día, cuando buscabas compañía para ir a la <strong>tienda de mangas</strong>, me ofrecí. Y ahí, entre estanterías y promesas de papel, intercambiamos nuestras primeras palabras... o algo parecido. Me hablaste y el mundo se detuvo. Yo, que siempre sé qué decir, me quedé sin voz, devorado por unos nervios que mi alma no sabía gestionar.
+            </p>
+            
+            <p>
+                Así que solo te hice una seña, un gesto torpe que era todo lo que mi timidez me permitía. Al verte irte, me hundí en la vergüenza, repitiendo en mi cabeza una y otra vez:
+            </p>
+            
+            <p style="text-align: center; font-style: italic; color: #888;">
+                «Eres un tonto. ¿Cómo no vas a poder hablarle? Tonto, tonto, tonto...»
+            </p>
+
+            <p>
+                No volvimos a hablar, pero mis ojos nunca dejaron de buscarte. Intenté llamar tu atención de mil formas discretas que, sospecho, pasaron desapercibidas. De pronto, en un evento escolar, fuiste ganadora del premio <strong>"la más bonita"</strong>. Sonreí para mis adentros; era algo bien merecido, pero merecías aún más. Al verte ir por el premio, quedé fascinado con tu linda belleza y solo pude pensar: <span class="highlight">«Está tierna, muy tierna»</span>.
+            </p>
+            
+            <p>
+                Llegaron las vacaciones. Un día, mientras caminaba bajo el sol, le hice una pregunta al aire: <span class="highlight">«¿Qué se sentirá estar enamorado?»</span>. Le pedí a Dios que me enviara a alguien que me enseñara el significado del amor. A los pocos días, llegó tu mensaje. Mi corazón no solo latió; reconoció su hogar. Desde ese preciso instante, decidí confiar ciegamente en ti.
+            </p>
+
+
+            <h2 class="section-title">El Título de la Felicidad</h2>
+
+            <p>
+                A pesar de que aquella salida fue un caos de mala organización, para mí fue el inicio de algo sagrado: había ganado una nueva amiga. Era curioso cómo mi personalidad se bifurcaba; por chat, era un torrente de energía e <strong>hiperactividad</strong>, pero en persona, el valor se me escapaba por los pies. Me seguía muriendo de nervios cada vez que estabas cerca; no podía hablarte.
+            </p>
+
+            <p>
+                Los meses transcurrieron y nuestra complicidad fue echando raíces... hasta que llegó aquel <strong class="highlight">28 de julio</strong>.
+            </p>
+
+            <p>
+                Ese día, por primera vez en mucho tiempo, experimenté lo que era sentirse verdaderamente importante. Sin previo aviso, me otorgaste un título que para muchos sería sencillo, pero que para mí fue un universo entero: me llamaste <span class="highlight">"mejor amigo"</span>. Mi mente estalló en una mezcla de incredulidad y euforia pura. «¿Una chica tan bella, tan magnética y popular, acaba de decir que soy su mejor amigo?». ¡Oh, por Dios! Lo dije con tanta emoción que casi exploté de felicidad.
+            </p>
+
+
+            <h2 class="section-title">La Calidez de lo Inevitable</h2>
+
+            <p>
+                ¿Te acuerdas de nuestro primer abrazo? Yo lo guardo en la memoria como se guarda un tesoro prohibido. Ese día fue, simplemente, maravilloso. Al rodearte con mis brazos, experimenté una sensación que no pude clasificar de inmediato; fue una calidez extraña, profunda, casi mística. Algo en mi arquitectura interna cambió para siempre en ese instante.
+            </p>
+
+            <p>
+                Lo más curioso es que los abrazos del resto del mundo me dejan indiferente. Pueden ser afectuosos, sí, pero carecen de esa chispa eléctrica, de ese refugio térmico que solo generan tus brazos. Es como si mi cuerpo hubiera reconocido un código secreto que solo tú posees.
+            </p>
+
+            <p>
+                Esa tarde, con el eco de tu cercanía aún quemándome la piel, me lo dije a mí mismo con la certeza de quien descubre una verdad universal:
+            </p>
+            
+            <span class="dialogue-highlight" style="font-size: 1.5rem;">
+                «¿Serás tú mi primer amor? Sí, definitivamente lo serás».
+            </span>
+
+            <p>
+                Ese abrazo fue el punto de no retorno. Fue el suspiro que apagó mis dudas y encendió mi destino, dando inicio, finalmente, a nuestro propio <span class="highlight">Valentine</span>.
+            </p>
+            <div style="margin-top: 60px; padding: 40px; background-color: rgba(229, 152, 155, 0.1); border-radius: 10px; border: 1px solid rgba(229, 152, 155, 0.3);">
+                
+                <h2 class="section-title" style="margin-top: 0;">La Promesa bajo la Luna</h2>
+                
+                <p>
+                    Después de ese abrazo, bajo el testigo silencioso de la luz de la luna, mi alma soltó un grito que retumbó en cada fibra de mi ser:
+                </p>
+
+                <p style="font-family: 'Playfair Display', serif; font-size: 1.4rem; text-align: center; color: var(--accent); font-style: italic; margin: 30px 0;">
+                    "Te elijo con los ojos abiertos."
+                </p>
+
+                <p>
+                    Lo hago sabiendo que amar no siempre es fácil. Te elijo en tus luces deslumbrantes y en tus sombras más densas; en tus días de calma absoluta y en tus días de caos ingobernable. Te elijo no porque te necesite para sobrevivir, sino porque contigo la vida se siente más bonita.
+                </p>
+
+                <p>
+                    No busco perfección, busco tu presencia. Te escojo en lo simple: en el café compartido, en las risas sin motivo, en los silencios que no incomodan sino que arrullan. Te escojo incluso cuando dudo, incluso cuando la vida se complica.
+                </p>
+
+                <p>
+                    Porque he entendido que el amor real no se trata de sentir siempre lo mismo, sino de la decisión valiente de elegir quedarse incluso cuando cuesta.
+                </p>
+
+                <p style="text-align: center; font-weight: bold; margin-top: 30px;">
+                    Y si la vida me diera mil opciones distintas, igual te escogería a ti.<br>
+                    Una y otra vez.<br>
+                    <span style="font-size: 0.9rem; font-weight: normal; color: #888; text-transform: uppercase; letter-spacing: 2px;">Con todo lo que eso implica.</span>
+                </p>
+            </div>
+        </div>
+
+        <div class="footer-nav">
+          <a href="index.html" class="back-btn">⏾ Estantería</a>
+          <a href="volumen2libro1.html" class="back-btn" style="background: var(--accent); color: white;">Siguiente Capítulo ➔</a>
+        </div>
+    </div>
+</body>
+</html>

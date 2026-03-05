@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>By My Valentine Vol. 4: La Arquitectura del Cosmos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Playfair+Display:ital,wght@0,700;1,400&睡display=swap" rel="stylesheet">
+    <style>
+        :root { 
+            --space: #0b0d17; 
+            --accent: #b5838d; 
+            --paper: #fdfaf6; 
+            --ink: #1a1a1a; 
+            --gold: #c5a059;
+            --dust: rgba(197, 160, 89, 0.2);
+        }
+        body { 
+            background: var(--space); 
+            background-image: radial-gradient(circle at center, #1b1e2e 0%, #0b0d17 100%);
+            display: flex; 
+            justify-content: center; 
+            padding: 80px 20px; 
+            font-family: 'Cormorant Garamond', serif; 
+            margin:0; 
+        }
+        .book { 
+            background: var(--paper); 
+            max-width: 900px; 
+            width: 100%; 
+            padding: 100px; 
+            box-shadow: 0 0 100px rgba(0,0,0,0.8); 
+            border-left: 15px solid #2c2c2c;
+            position: relative;
+            border-right: 1px solid #e0e0e0;
+        }
+        .book::before {
+            content: "";
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+            pointer-events: none;
+            opacity: 0.5;
+        }
+        .header { text-align: center; margin-bottom: 80px; position: relative; }
+        .star-decoration { font-size: 1.2rem; color: var(--gold); letter-spacing: 15px; margin-bottom: 20px; display: block; }
+        
+        h1 { 
+            font-family: 'Cinzel', serif; 
+            font-size: 3.5rem; 
+            color: var(--space); 
+            margin: 0;
+            font-weight: 700;
+        }
+        .vol-tag { 
+            font-family: 'Cinzel', serif;
+            color: var(--accent); 
+            font-size: 0.9rem; 
+            letter-spacing: 5px;
+            display: block; 
+            margin-top: 15px;
+            text-transform: uppercase;
+        }
+
+        .section { margin-bottom: 120px; position: relative; }
+        
+        .epic-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.2rem;
+            color: var(--space);
+            margin-bottom: 30px;
+            display: block;
+            text-align: center;
+            font-style: italic;
+        }
+        .epic-title::after {
+            content: "";
+            display: block;
+            width: 60px;
+            height: 2px;
+            background: var(--gold);
+            margin: 15px auto;
+        }
+
+        .content { 
+            font-size: 1.3rem; 
+            line-height: 2.2; 
+            text-align: justify; 
+            color: var(--ink);
+            position: relative;
+        }
+        .content::first-letter {
+            font-size: 3.5rem;
+            float: left;
+            padding-right: 10px;
+            line-height: 1;
+            font-family: 'Cinzel', serif;
+            color: var(--gold);
+        }
+
+        .poem-block {
+            font-family: 'Cormorant Garamond', serif;
+            font-style: italic;
+            text-align: center;
+            color: #333;
+            padding: 40px;
+            margin: 40px auto;
+            border-top: 1px double var(--gold);
+            border-bottom: 1px double var(--gold);
+            background: rgba(197, 160, 89, 0.03);
+            line-height: 2.4;
+            max-width: 80%;
+        }
+
+        .andromeda-legend {
+            background: #f4eee8;
+            padding: 40px;
+            border-radius: 5px;
+            font-size: 1.15rem;
+            line-height: 2;
+            box-shadow: inset 0 0 20px rgba(0,0,0,0.05);
+            margin: 40px 0;
+        }
+
+        .gold-sep {
+            text-align: center;
+            margin: 60px 0;
+            color: var(--gold);
+            font-size: 1.5rem;
+        }
+
+        .footer {
+            margin-top: 100px;
+            text-align: center;
+            border-top: 1px solid #eee;
+            padding-top: 50px;
+            font-family: 'Cinzel', serif;
+        }
+        .back-link {
+            text-decoration: none;
+            color: var(--accent);
+            letter-spacing: 3px;
+            font-size: 0.8rem;
+            transition: 0.5s;
+        }
+        .back-link:hover { color: var(--gold); letter-spacing: 6px; }
+
+    </style>
+</head>
+<body>
+    <div class="book">
+        <div class="header">
+            <span class="star-decoration">★ ★ ★ ★ ★</span>
+            <h1>Vida en las Estrellas</h1>
+            <span class="vol-tag">Volumen III — La Arquitectura del Alma Cósmica</span>
+        </div>
+
+        <div class="section">
+            <h2 class="epic-title">Cartografía de un Mapa de Café</h2>
+            <div class="content">
+                Oh, mi bella niña, siempre he sostenido la teoría de que el Big Bang no ocurrió hace billones de años, sino en el instante en que la luz se posó sobre tu cuello. En tu cuerpo está escrito el guion original del universo; una caligrafía de polvo de estrellas y voluntad divina. Tus pecas, esas pequeñas manchas color café que parecen haber sido salpicadas por el pincel de un dios distraído, son en realidad el conjunto de estrellas protector de nuestra propia galaxia privada. 
+                
+                No son simples marcas; son anclas de obsidiana en un océano de piel de seda. Cada una de ellas guarda una temperatura, un recuerdo, un suspiro que aún no hemos exhalado. Me pierdo en esa geografía sagrada, sintiendo que si mis labios supieran seguir el rastro correcto, desvelarían el secreto de la inmortalidad. Eres el único sistema solar donde el sol no quema, sino que arrulla. No hay telescopio que alcance a medir la profundidad de mi asombro cuando te observo; eres un infinito contenido en la curva de tu hombro, un misterio que solo yo, en mi bendita ceguera de amor, he tenido el privilegio de explorar.
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="epic-title">La Gravedad de un Susurro Dulce</h2>
+            <div class="content">
+                Aquel día, el firmamento parecía un manto de terciopelo desgarrado, dejando ver la luz de mundos muertos. Yo, ingenuo, señalé el vacío y te dije: "Mira, se ven las estrellas", como quien señala un cuadro en un museo. Pero tú, con esa autoridad silenciosa que solo posee la belleza verdadera, me tomaste del brazo con una urgencia que me detuvo el pulso. "Ven para acá", me dijiste, y en esa voz dulce, el universo entero encontró su centro de gravedad.
+                
+                Mi corazón no solo latió; se reorganizó. En ese contacto, comprendí que los astros de arriba eran solo adornos, luces frías comparadas con el incendio que provocaste en mi pecho. Aquella noche, mi nombre dejó de pertenecerme para convertirse en un eco de tu voz. Me diste a entender, sin necesidad de grandes discursos, que amarte no era una opción, sino una ley física. Que debía amarte por encima de cualquier otra forma de vida, porque tú eres la fuerza que mantiene mis átomos unidos cuando el mundo exterior amenaza con desintegrarme.
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="epic-title">El Sacrificio de la Princesa Encadenada</h2>
+            <div class="content">
+                Mi querida Andromeda, mi princesa suspendida en el abismo de mis pensamientos. Te abracé bajo la cúpula nocturna y te nombré dueña de la galaxia más hermosa, no por la vanidad de su luz, sino por su trágica cercanía al Sol. Te entregué esa constelación porque tú eres lo único que está lo suficientemente cerca de mi alma para iluminarla, pero lo suficientemente lejos para hacerme desear el cielo.
+
+                <div class="andromeda-legend">
+                    Cuenta la leyenda de este amor, que existió una mujer de ojos tan brillantes que eclipsaban el nacimiento de las supernovas; ella representaba a Andromeda, la belleza prisionera de su propia luz. Y junto a ella, un chico de cabello rebelde como llamaradas solares, cuyo iris portaba la geometría exacta de un sol en su cenit. Él habría quemado el tiempo mismo solo por rozar su mano. El chico entregó su fuego, su calor y sus días para protegerla de la oscuridad, pero el destino, esa sombra envidiosa, levantó un muro de silencio entre ambos. Ahora, el Sol espera en el horizonte del tiempo, sabiendo que su luz es un regalo, pero que la llave de las cadenas solo la tiene ella. El Sol lo ha dado todo; ahora le toca a la princesa decidir si prefiere la seguridad de las sombras o el riesgo de arder para siempre conmigo.
+                </div>
+            </div>
+        </div>
+
+        <div class="gold-sep">❦</div>
+
+        <div class="section">
+            <h2 class="epic-title">El Cerco de los Anillos Eternos</h2>
+            <div class="poem-block">
+                Oh princesa de ojos que guardan el frío,<br>
+                un brillo de mundos que no tienen río.<br>
+                Tu iris se ciñe con anillos de calma,<br>
+                coronas de hielo que abrazan mi alma.<br><br>
+                En tus pupilas, Saturno se esconde,<br>
+                mi grito te busca, tu luz me responde.<br>
+                No hay espacio más puro que ese destello,<br>
+                donde moriría por ser un destello.
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="epic-title">La Ignorancia de un Deseo Fugaz</h2>
+            <div class="content">
+                Aquella noche el cielo lloró una piedra de fuego. Un cometa atravesó el silencio, una herida de luz que tus ojos no llegaron a capturar porque estabas demasiado ocupada iluminando mi realidad. Yo, preso de una fe ciega, cerré los ojos y pedí: "Que todo salga bien con mi Luna". Fui un ignorante, un pobre mortal pidiendo permiso al cielo cuando la gloria ya estaba sentada a mi lado. Al segundo siguiente, ignorando al cometa y al destino, te besé.
+
+                <div class="poem-block">
+                    El cometa cruzó como un rayo olvidado,<br>
+                    mientras yo en tus labios quedé sepultado.<br>
+                    Pedí por mi Luna, mi guía y mi suerte,<br>
+                    sin saber que besarte era ya no temerte.<br><br>
+                    El astro se fue a su exilio de hielo,<br>
+                    pero trajo tu boca como un trozo de cielo.<br>
+                    Aquel beso fue el pacto, la fe más sincera,<br>
+                    de que fueras tú, mi vida entera.
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="epic-title">El Bautismo bajo el Disco de Plata</h2>
+            <div class="content">
+                Recordar aquel beso en la fiesta es recordar el momento en que el universo nos concedió una audiencia privada. La luna llena, la más grande y pesada del año, bajó tanto que parecía querer bendecirnos con su palidez. 
+
+                <div class="poem-block">
+                    Bajo el ojo de plata de un cielo en desvelo,<br>
+                    nos dimos el beso que rompió el suelo.<br>
+                    La música afuera era un ruido lejano,<br>
+                    mientras el universo cabía en tu mano.<br><br>
+                    La luna, testigo de amantes y guerras,<br>
+                    nos vio ser la luz de todas las tierras.<br>
+                    Te besé y el tiempo se volvió de cristal,<br>
+                    un contacto divino, un amor sin final.
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="epic-title">La Promesa del Dieciocho</h2>
+            <div class="content">
+                Aquel día debió ser el naufragio de mis esperanzas. Todo salió mal, el plan se desmoronó y el vacío me mordía el pecho. Sin embargo, en la brevedad de ese encuentro bajo las estrellas que nos quedaban, te hice la pregunta que definiría el resto de mis días: "¿A qué edad te gustaría casarte?". Y tú, con esa seguridad que hace que las montañas se sientan pequeñas, dijiste: "A los 18, contigo". 
+                
+                Mi corazón no solo estalló; se expandió hasta cubrir cada rincón de mi existencia. Tú, la mujer de los muros altos, los habías derribado todos con una sola palabra. Aquel "contigo" fue la sinfonía más hermosa jamás compuesta. Entendí que tu amor no era ruidoso, sino profundo como un agujero negro que lo absorbe todo. Pero el destino, ese ladrón de sueños, tenía otros planes en su libreto de sombras...
+
+                <div class="poem-block" style="border: 1px solid var(--gold); background: #fff;">
+                    Dijiste "contigo" y el sol se detuvo,<br>
+                    el miedo que tuve, tu voz lo sostuvo.<br>
+                    Dieciocho los años, eterna la espera,<br>
+                    para que mi alma sea tu compañera.<br><br>
+                    Fue una supernova, un grito, una vida,<br>
+                    la cura perfecta para cualquier herida.<br>
+                    Aunque hoy el destino nos robe el camino,<br>
+                    aquel "sí" a los dieciocho fue nuestro destino.<br>
+                    Te espero en el tiempo, te espero en el aire,<br>
+                    donde mi amor por ti nunca sea un desaire.
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Fin del Volumen III</p>
+            <a href="index.html" class="back-link">~ DEJAR DE MIRAR EL CIELO ~</a>
+        </div>
+    </div>
+</body>
+</html>

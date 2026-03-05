@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fragments of a Heart - Libro III</title>
+    <style>
+        :root {
+            --paper-dark: #f0e6e6;
+            --rose-dust: #b5838d;
+            --ink-grey: #4a4e69;
+            --tear-color: #d8e2dc;
+        }
+
+        body {
+            background-color: #d6ccc2;
+            margin: 0;
+            padding: 40px 20px;
+            font-family: 'Times New Roman', serif;
+            display: flex;
+            justify-content: center;
+        }
+
+        .book-interior {
+            background-color: var(--paper-dark);
+            max-width: 600px;
+            width: 100%;
+            padding: 60px;
+            box-shadow: inset 0 0 100px rgba(0,0,0,0.05), 10px 10px 40px rgba(0,0,0,0.2);
+            position: relative;
+            border-radius: 5px;
+        }
+
+        .back-nav {
+            text-decoration: none;
+            color: var(--rose-dust);
+            font-size: 0.8rem;
+            letter-spacing: 1px;
+            font-style: italic;
+        }
+
+        header {
+            text-align: center;
+            margin-top: 30px;
+            border-bottom: 0.5px solid var(--rose-dust);
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            font-weight: 400;
+            font-size: 2.5rem;
+            color: var(--ink-grey);
+            margin: 10px 0;
+        }
+
+        .subtitle {
+            font-size: 0.9rem;
+            color: var(--rose-dust);
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+
+        .lyrics-quote {
+            text-align: center;
+            margin: 40px 0;
+            color: #777;
+            font-style: italic;
+            font-size: 1.1rem;
+            border-left: 3px solid var(--rose-dust);
+            padding-left: 15px;
+            margin-left: 20px;
+        }
+
+        .manuscript-text {
+            font-size: 1.2rem;
+            line-height: 2;
+            color: var(--ink-grey);
+            text-align: justify;
+        }
+
+        .highlight {
+            color: var(--rose-dust);
+            font-weight: bold;
+        }
+
+        .signature {
+            margin-top: 50px;
+            text-align: right;
+            font-family: 'Georgia', serif;
+            font-style: italic;
+            color: var(--rose-dust);
+        }
+
+        /* Efecto de mancha de acuarela decorativa */
+        .stain {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            width: 100px;
+            height: 100px;
+            background: radial-gradient(circle, rgba(181, 131, 141, 0.1) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.75rem;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="book-interior">
+        <a href="index.html" class="back-nav">← Regresar a la biblioteca</a>
+
+        <header>
+            <p class="subtitle">Volumen Final</p>
+            <h1>Fragments of a Heart</h1>
+        </header>
+
+        <div class="lyrics-quote">
+            "One day I'll stop being a starry-eyed fool <br>
+            but today, I'll let you break my heart again."
+        </div>
+
+        <div class="manuscript-text">
+            <p>
+                Este es el capítulo que nunca quise escribir, pero el que más paz me da. Me enseñaste que el amor de verdad no es una línea recta, sino un laberinto donde perderse vale la pena. 
+            </p>
+            <p>
+                Te miro, con tu cabello color caramelo y esa <span class="highlight">inteligencia brillante</span> que parece entender el mundo mejor que nadie, y me doy cuenta de que cualquier versión de mi vida es mejor si tú estás en ella, incluso si es solo como un recuerdo que duele. 
+            </p>
+            <p>
+                Eres tan dedicada y capaz que lograste algo imposible: hacerme amar mi propia vulnerabilidad. Si amarte de verdad significa estar dispuesto a que me rompas el corazón una y otra vez, acepto el riesgo. Porque una sola de tus sonrisas, o el sonido de tu voz dulce, compensa cada fragmento roto. Gracias por enseñarme que el amor no es solo ganar, sino también saber entregarse por completo.
+            </p>
+        </div>
+
+        <div class="signature">
+            Con un amor que no sabe rendirse.
+        </div>
+
+        <div class="stain"></div>
+        <div style="text-align: center; margin-top: 80px; padding-bottom: 40px;">
+            <a href="volumen1libro3.html" style="display: inline-block; text-decoration: none; color: white; background-color: #b5838d; padding: 15px 40px; border-radius: 30px; font-family: 'Playfair Display', serif; letter-spacing: 2px; transition: 0.4s; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                Comenzar: capitulo I - Again →
+            </a></div>
+        <footer>
+            Libro III — La belleza de lo vulnerable
+        </footer>
+    </div>
+
+</body>
+</html>

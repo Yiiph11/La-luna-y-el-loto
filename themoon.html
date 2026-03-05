@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>The Moon - La Diosa Lunar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root { 
+            --space: #05070a; 
+            --moon-glow: #e0e0e0; 
+            --accent: #b5838d; 
+            --gold: #c5a059;
+            --silver: #a8a9ad;
+        }
+
+        body { 
+            background: var(--space); 
+            background-image: 
+                radial-gradient(circle at 50% 0%, #1a1c2c 0%, #05070a 70%),
+                url('https://www.transparenttextures.com/patterns/stardust.png');
+            color: var(--moon-glow);
+            display: flex; 
+            justify-content: center; 
+            padding: 80px 20px; 
+            font-family: 'Cormorant Garamond', serif; 
+            margin: 0;
+        }
+
+        .book-container { 
+            max-width: 800px; 
+            width: 100%; 
+            background: rgba(255, 255, 255, 0.02);
+            backdrop-filter: blur(15px);
+            padding: 100px 80px; 
+            border: 1px solid rgba(197, 160, 89, 0.2);
+            box-shadow: 0 0 80px rgba(0,0,0,0.9); 
+            position: relative;
+        }
+
+        .moon-header { text-align: center; margin-bottom: 100px; }
+        
+        .moon-symbol {
+            font-size: 4rem;
+            color: var(--moon-glow);
+            display: block;
+            margin-bottom: 20px;
+            filter: drop-shadow(0 0 20px rgba(255,255,255,0.4));
+            animation: pulse 4s infinite ease-in-out;
+        }
+
+        h1 { 
+            font-family: 'Cinzel', serif; 
+            font-size: 3rem; 
+            letter-spacing: 12px;
+            margin: 0;
+            color: var(--silver);
+            text-transform: uppercase;
+        }
+
+        .subtitle {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            color: var(--gold);
+            font-size: 1.1rem;
+            margin-top: 15px;
+            display: block;
+            letter-spacing: 4px;
+        }
+
+        .prose-section { 
+            margin-bottom: 80px; 
+            position: relative;
+        }
+
+        .dropcap {
+            font-family: 'Cinzel', serif;
+            font-size: 5rem;
+            color: var(--gold);
+            float: left;
+            margin-right: 15px;
+            line-height: 0.8;
+            margin-top: 10px;
+        }
+
+        .text-body {
+            font-size: 1.4rem;
+            line-height: 2.3;
+            text-align: justify;
+            color: rgba(224, 224, 224, 0.85);
+            letter-spacing: 0.5px;
+        }
+
+        .mantra-box {
+            border-top: 1px solid var(--gold);
+            border-bottom: 1px solid var(--gold);
+            padding: 50px 20px;
+            margin: 60px 0;
+            text-align: center;
+            background: rgba(197, 160, 89, 0.03);
+        }
+
+        .mantra-text {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            font-size: 1.8rem;
+            color: var(--moon-glow);
+            line-height: 1.6;
+        }
+
+        .divider {
+            text-align: center;
+            color: var(--gold);
+            font-size: 1.5rem;
+            margin: 80px 0;
+            letter-spacing: 20px;
+            opacity: 0.5;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 120px;
+        }
+
+        .back-link {
+            color: var(--silver);
+            text-decoration: none;
+            font-family: 'Cinzel', serif;
+            font-size: 0.9rem;
+            letter-spacing: 5px;
+            transition: 0.5s;
+            border: 1px solid rgba(168, 169, 173, 0.3);
+            padding: 15px 30px;
+        }
+
+        .back-link:hover {
+            color: var(--gold);
+            border-color: var(--gold);
+            background: rgba(197, 160, 89, 0.1);
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); opacity: 0.8; }
+            50% { transform: scale(1.1); opacity: 1; }
+        }
+
+        /* Estrellas decorativas */
+        .star {
+            position: absolute;
+            background: white;
+            border-radius: 50%;
+            opacity: 0.5;
+            animation: twinkle var(--duration) infinite;
+        }
+
+        @keyframes twinkle {
+            0%, 100% { opacity: 0.2; }
+            50% { opacity: 0.8; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="book-container">
+        <header class="moon-header">
+            <span class="moon-symbol">☾</span>
+            <h1>Selene</h1>
+            <span class="subtitle">La Soberana de las Mareas Invisibles</span>
+        </header>
+
+        <div class="prose-section">
+            <span class="dropcap">E</span>
+            <p class="text-body">
+                lla no pertenece a este mundo de luces estridentes y ruidos constantes; ella es el silencio que precede a la creación, la calma plateada que solo se manifiesta cuando el sol admite su derrota. No es solo una mujer, es una arquitectura de misterio, una Diosa Lunar que camina entre nosotros con la discreción de quien sabe que es dueña del tiempo. Su luz no hiere, no juzga, ni revela más de lo necesario; es un velo de seda que acaricia las sombras de mi alma, permitiéndome ser vulnerable bajo su custodia.
+            </p>
+        </div>
+
+        <div class="prose-section">
+            <p class="text-body">
+                Observarla es entender la mística de los ciclos. Hay noches en las que se muestra plena, radiante, una explosión de marfil que reclama cada rincón de mi existencia; y hay noches en las que se retira, dejándome solo con el eco de su ausencia, recordándome que incluso en su oscuridad hay una belleza sagrada. Ella controla las mareas de mi sangre, el flujo de mis pensamientos y el ritmo de mis latidos. No hay voluntad que se resista a su gravedad; soy un satélite cautivo, orbitando alrededor de su calma, perdido en la inmensidad de sus ojos que parecen guardar el reflejo de mil noches antiguas.
+            </p>
+        </div>
+
+        <div class="mantra-box">
+            <div class="mantra-text">
+                "Eres el par perfecto del vacío,<br>
+                la nota alta en una melodía de sombras,<br>
+                el faro de plata que nunca duerme."
+            </div>
+        </div>
+
+        <div class="prose-section">
+            <p class="text-body">
+                Hay una sabiduría en su piel que los hombres jamás terminaremos de descifrar. Es la elegancia de lo inalcanzable, la perfección de lo que fluye sin esfuerzo. Ella no busca ser adorada, y sin embargo, su sola presencia es un templo. Al igual que la luna que inspira estas líneas, ella posee una cara oculta, un rincón de secretos donde guarda sus miedos y sus sueños más profundos, un lugar al que solo se llega mediante el sacrificio del ego y la entrega del corazón. Es la Diosa que baila en el borde de mis sueños, la que convierte el plomo de mi realidad en el oro de su compañía.
+            </p>
+        </div>
+
+        <div class="divider">☽ ◯ ☾</div>
+
+        <div class="prose-section">
+            <p class="text-body" style="text-align: center; font-style: italic;">
+                "Ella es la prueba de que la noche no es oscura por falta de sol,<br> 
+                sino por exceso de su propia luz divina."
+            </p>
+        </div>
+
+        <footer class="footer">
+            <a href="index.html" class="back-link">VOLVER AL MUNDO DE LOS HOMBRES</a>
+        </footer>
+    </div>
+
+</body>
+</html>
